@@ -1,0 +1,180 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bodyparser--',
+1 verbose cli   'save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'bodyparser--', null ]
+6 verbose cache add name=undefined spec="bodyparser--" args=["bodyparser--",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'bodyparser--',
+7 verbose parsed url   path: 'bodyparser--',
+7 verbose parsed url   href: 'bodyparser--' }
+8 verbose cache add [ 'save', null ]
+9 verbose cache add name=undefined spec="save" args=["save",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'save',
+10 verbose parsed url   path: 'save',
+10 verbose parsed url   href: 'save' }
+11 silly lockFile 2eee1a72-bodyparser bodyparser--
+12 verbose lock bodyparser-- /home/ubuntu/.npm/2eee1a72-bodyparser.lock
+13 silly lockFile 13a4a113-save save
+14 verbose lock save /home/ubuntu/.npm/13a4a113-save.lock
+15 silly lockFile 2eee1a72-bodyparser bodyparser--
+16 silly lockFile 2eee1a72-bodyparser bodyparser--
+17 silly lockFile 13a4a113-save save
+18 silly lockFile 13a4a113-save save
+19 verbose addNamed [ 'bodyparser--', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile a88fbae1-bodyparser bodyparser--@
+22 verbose lock bodyparser--@ /home/ubuntu/.npm/a88fbae1-bodyparser.lock
+23 verbose addNamed [ 'save', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile c71f9f9a-save save@
+26 verbose lock save@ /home/ubuntu/.npm/c71f9f9a-save.lock
+27 silly addNameRange { name: 'bodyparser--', range: '*', hasData: false }
+28 silly addNameRange { name: 'save', range: '*', hasData: false }
+29 verbose request where is /bodyparser--
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id d67bc95f51d16fed
+32 verbose url raw /bodyparser--
+33 verbose url resolving [ 'https://registry.npmjs.org/', './bodyparser--' ]
+34 verbose url resolved https://registry.npmjs.org/bodyparser--
+35 verbose request where is https://registry.npmjs.org/bodyparser--
+36 info trying registry request attempt 1 at 12:29:55
+37 http GET https://registry.npmjs.org/bodyparser--
+38 verbose request where is /save
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /save
+41 verbose url resolving [ 'https://registry.npmjs.org/', './save' ]
+42 verbose url resolved https://registry.npmjs.org/save
+43 verbose request where is https://registry.npmjs.org/save
+44 info trying registry request attempt 1 at 12:29:55
+45 http GET https://registry.npmjs.org/save
+46 http 404 https://registry.npmjs.org/bodyparser--
+47 verbose headers { date: 'Wed, 01 Apr 2015 12:29:55 GMT',
+47 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 verbose headers   'content-type': 'application/json',
+47 verbose headers   'cache-control': 'max-age=0',
+47 verbose headers   'content-length': '51',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   age: '0',
+47 verbose headers   'x-served-by': 'cache-lhr6326-LHR',
+47 verbose headers   'x-cache': 'MISS',
+47 verbose headers   'x-cache-hits': '0',
+47 verbose headers   'x-timer': 'S1427891395.873143,VS0,VE90',
+47 verbose headers   'keep-alive': 'timeout=10, max=50',
+47 verbose headers   connection: 'Keep-Alive' }
+48 silly registry.get cb [ 404,
+48 silly registry.get   { date: 'Wed, 01 Apr 2015 12:29:55 GMT',
+48 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 silly registry.get     'content-type': 'application/json',
+48 silly registry.get     'cache-control': 'max-age=0',
+48 silly registry.get     'content-length': '51',
+48 silly registry.get     'accept-ranges': 'bytes',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     age: '0',
+48 silly registry.get     'x-served-by': 'cache-lhr6326-LHR',
+48 silly registry.get     'x-cache': 'MISS',
+48 silly registry.get     'x-cache-hits': '0',
+48 silly registry.get     'x-timer': 'S1427891395.873143,VS0,VE90',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 silly lockFile a88fbae1-bodyparser bodyparser--@
+50 silly lockFile a88fbae1-bodyparser bodyparser--@
+51 http 200 https://registry.npmjs.org/save
+52 silly registry.get cb [ 200,
+52 silly registry.get   { date: 'Wed, 01 Apr 2015 12:29:56 GMT',
+52 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 silly registry.get     etag: '"1QTMSNLO5X1SQXOU05628CSM3"',
+52 silly registry.get     'content-type': 'application/json',
+52 silly registry.get     'cache-control': 'max-age=60',
+52 silly registry.get     'content-length': '28477',
+52 silly registry.get     'accept-ranges': 'bytes',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     age: '0',
+52 silly registry.get     'x-served-by': 'cache-lhr6335-LHR',
+52 silly registry.get     'x-cache': 'MISS',
+52 silly registry.get     'x-cache-hits': '0',
+52 silly registry.get     'x-timer': 'S1427891395.917960,VS0,VE91',
+52 silly registry.get     vary: 'Accept',
+52 silly registry.get     'keep-alive': 'timeout=10, max=50',
+52 silly registry.get     connection: 'Keep-Alive' } ]
+53 silly addNameRange number 2 { name: 'save', range: '*', hasData: true }
+54 silly addNameRange versions [ 'save',
+54 silly addNameRange   [ '0.0.1',
+54 silly addNameRange     '0.0.2',
+54 silly addNameRange     '0.0.3',
+54 silly addNameRange     '0.0.4',
+54 silly addNameRange     '0.0.5',
+54 silly addNameRange     '0.0.6',
+54 silly addNameRange     '0.0.7',
+54 silly addNameRange     '0.0.8',
+54 silly addNameRange     '0.0.9',
+54 silly addNameRange     '0.0.10',
+54 silly addNameRange     '0.0.11',
+54 silly addNameRange     '0.0.12',
+54 silly addNameRange     '0.0.13',
+54 silly addNameRange     '0.0.14',
+54 silly addNameRange     '0.0.15',
+54 silly addNameRange     '0.0.16',
+54 silly addNameRange     '0.0.17',
+54 silly addNameRange     '0.0.18',
+54 silly addNameRange     '0.0.19',
+54 silly addNameRange     '0.0.20',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '2.0.0',
+54 silly addNameRange     '2.1.0' ] ]
+55 verbose addNamed [ 'save', '2.1.0' ]
+56 verbose addNamed [ '2.1.0', '2.1.0' ]
+57 silly lockFile 50c24cdc-save-2-1-0 save@2.1.0
+58 verbose lock save@2.1.0 /home/ubuntu/.npm/50c24cdc-save-2-1-0.lock
+59 silly lockFile 65258abe-ry-npmjs-org-save-save-2-1-0-tgz https://registry.npmjs.org/save/-/save-2.1.0.tgz
+60 verbose lock https://registry.npmjs.org/save/-/save-2.1.0.tgz /home/ubuntu/.npm/65258abe-ry-npmjs-org-save-save-2-1-0-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/save/-/save-2.1.0.tgz',
+61 verbose addRemoteTarball   '7f0c45d5f3d04237f33bf6214671346eb53362b6' ]
+62 info retry fetch attempt 1 at 12:29:56
+63 verbose fetch to= /tmp/npm-4438-hGluA7BO/registry.npmjs.org/save/-/save-2.1.0.tgz
+64 http GET https://registry.npmjs.org/save/-/save-2.1.0.tgz
+65 http 200 https://registry.npmjs.org/save/-/save-2.1.0.tgz
+66 silly lockFile 65258abe-ry-npmjs-org-save-save-2-1-0-tgz https://registry.npmjs.org/save/-/save-2.1.0.tgz
+67 silly lockFile 65258abe-ry-npmjs-org-save-save-2-1-0-tgz https://registry.npmjs.org/save/-/save-2.1.0.tgz
+68 silly lockFile 50c24cdc-save-2-1-0 save@2.1.0
+69 silly lockFile 50c24cdc-save-2-1-0 save@2.1.0
+70 silly lockFile c71f9f9a-save save@
+71 silly lockFile c71f9f9a-save save@
+72 error 404 404 Not Found: bodyparser--
+72 error 404
+72 error 404 'bodyparser--' is not in the npm registry.
+72 error 404 You should bug the author to publish it
+72 error 404 It was specified as a dependency of 'Passport'
+72 error 404
+72 error 404 Note that you can also install from a
+72 error 404 tarball, folder, or http url, or git url.
+73 error System Linux 3.14.13-c9
+74 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "bodyparser--" "save"
+75 error cwd /home/ubuntu/workspace
+76 error node -v v0.10.35
+77 error npm -v 1.4.28
+78 error code E404
+79 verbose exit [ 1, true ]
